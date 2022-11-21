@@ -1,5 +1,8 @@
 :root {
     --light-colour:aqua; 
+    --tran-aqua:rgba(0, 255, 255, 0.675);
+    --tran-aqua2:rgba(0, 255, 255, 0.9);
+    --tran-aqua-btn:rgba(0, 255, 255, 0.95);
   }
 body {
     margin: 0;
@@ -23,22 +26,22 @@ body {
 
   .nav-item {
     margin: 0px 15px;
-    background-color: rgba(0, 255, 255, 0.675);
+    background-color:var(--tran-aqua);
     border-radius: 20%;
   }
   .nav-item:hover {
-    background-color: rgba(0, 255, 255, 0.9);
+    background-color: var(--tran-aqua2);
   }
   
   /* Navigation dropdown menu */
   .dropdown-menu {
-    background-color:rgba(0, 255, 255, 0.511); !important;
+    background-color:var(--tran-aqua); !important;
     background-size: cover;
   }
   .dropdown-item:focus, .dropdown-item:hover {
       color: #16181b;
       text-decoration: none;
-      background: rgba(0, 255, 255, 0.9);;
+      background: var(--tran-aqua2);
   }
   
   /* Navigation links */
@@ -47,11 +50,11 @@ body {
   }
   .navCTA {
     font-size: 15px;
-    background-color: rgba(0, 255, 255, 0.511);;
+    background-color: var(--tran-aqua);
     color: #000000;
   }
   .navCTA:hover{
-    background-color:rgba(0, 255, 255, 0.95); ;
+    background-color:var(--tran-aqua2); ;
   }
 .jumbotron {
     background-image: url(../images/02-hero-bg.jpg);
@@ -79,7 +82,7 @@ body {
     padding-left: 8%;
     margin-left: -19px;
     padding-right: 10px;
-    background-color:rgba(0, 255, 255, 0.95);
+    background-color:var(--tran-aqua-btn);
     border-top-right-radius:20% ;
     border-bottom-right-radius:20% ;
   }
@@ -102,4 +105,14 @@ body {
   }
   .card img {
     height: 300px;
+  }
+  .col-4 h2 {
+    font-size: ;
+  } 
+  .footer {
+    background-color:none;
+    border-radius: 20%;
+  }
+  .tel::after{
+    content: "+447395034630";
   }
