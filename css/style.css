@@ -1,0 +1,91 @@
+:root {
+    --light-colour:aqua; 
+  }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    text-decoration: none;
+    background-color: #ededf6
+  }
+  .nav-link{
+    
+  }
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+ 
+
+  .nav-item {
+    margin: 0px 15px;
+    background-color: rgba(0, 255, 255, 0.675);
+    border-radius: 20%;
+  }
+  .nav-item:hover {
+    background-color: rgba(0, 255, 255, 0.9);
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    background-color:rgba(0, 255, 255, 0.511); !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: rgba(0, 255, 255, 0.9);;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: rgb(54, 54, 54) !important;
+  }
+  .navCTA {
+    font-size: 15px;
+    background-color: rgba(0, 255, 255, 0.511);;
+    color: #000000;
+  }
+  .navCTA:hover{
+    background-color:rgba(0, 255, 255, 0.95); ;
+  }
+.jumbotron {
+    background-image: url(../images/02-hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+.jumboSubtitle {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--light-colour);
+    padding: 10px;
+    border-radius: 5%;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+    color: #ededf6 !important;
+  }
+
+  .navbar-brand {
+    padding-left: 8%;
+    margin-left: -19px;
+    padding-right: 10px;
+    background-color:rgba(0, 255, 255, 0.95);
+    border-top-right-radius:20% ;
+    border-bottom-right-radius:20% ;
+  }
+  .article{
+        border-left: 5px solid #363535;
+  }
+  .row {
+    margin-bottom: 1%; 
+  }
