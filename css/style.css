@@ -13,7 +13,7 @@ body {
     background-color: #ededf6
   }
   .nav-link{
-    
+
   }
   .customNav {
     position: fixed;
@@ -35,7 +35,7 @@ body {
   
   /* Navigation dropdown menu */
   .dropdown-menu {
-    background-color:var(--tran-aqua); !important;
+    background-color:var(--tran-aqua) !important;
     background-size: cover;
   }
   .dropdown-item:focus, .dropdown-item:hover {
@@ -94,6 +94,7 @@ body {
   }
   .card {
     margin: 10px auto;
+   
   }
   .cardContainer {
     margin-top: 20px;
@@ -102,9 +103,11 @@ body {
   }
   form {
     padding-left: 15px;
+    padding-bottom: 2%;
   }
   .card img {
     height: 300px;
+    background-color: #ffffff75 !important ;
   }
   .col-4 h2 {
     font-size: ;
@@ -116,3 +119,26 @@ body {
   .tel::after{
     content: "+447395034630";
   }
+  .badge-base{
+    padding-left: 15%;
+  }
+  .list-group-item {
+    background-color:transparent;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+  }
+  @media only screen and (max-width: 600px) {
+.flex {
+      display: block;
+    }
+  }
+.linkedin {
+    font-size: large;
+    
+}
+.linkedin:hover {
+    background-color: var(--tran-aqua2);
+    text-decoration: none;
+}
