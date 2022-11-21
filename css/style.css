@@ -89,3 +89,17 @@ body {
   .row {
     margin-bottom: 1%; 
   }
+  .card {
+    margin: 10px auto;
+  }
+  .cardContainer {
+    margin-top: 20px;
+    text-align: center;
+    
+  }
+  form {
+    padding-left: 15px;
+  }
+  .card img {
+    height: 300px;
+  }
